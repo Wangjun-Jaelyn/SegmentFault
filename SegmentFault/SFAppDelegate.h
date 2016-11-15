@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SFAppDelegate.h
 //  SegmentFault
 //
 //  Created by debao.com on 2016/11/15.
@@ -8,7 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface SFAppDelegate : UIResponder <UIApplicationDelegate>
+
+@property (strong, nonatomic) UIWindow *window;
 
 
 @end

@@ -6,17 +6,21 @@
 //  Copyright © 2016年 Debao. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "SFAppDelegate.h"
 
-@interface AppDelegate ()
+@interface SFAppDelegate ()
 
 @end
 
-@implementation AppDelegate
+@implementation SFAppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.rootViewController = [[UIViewController alloc] init];
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
