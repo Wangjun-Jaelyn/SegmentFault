@@ -7,6 +7,8 @@
 //
 
 #import "SFAppDelegate.h"
+#import "UMNavigationController.h"
+#import "SFLoginService.h"
 
 @interface SFAppDelegate ()
 
@@ -14,11 +16,41 @@
 
 @implementation SFAppDelegate
 
+- (void)initURLMapping{
+    [[UMNavigationController config] setValuesForKeysWithDictionary:@{@"sf://questionlist":@"SFQuestionListViewController",
+                                                                       @"sf://questiondetail":@"SFQuestionDetailViewController",
+                                                                       @"http://segmentfault.com":@"SFWebViewController" ,
+                                                                       @"sf://webview":@"SFWebViewController",
+                                                                       @"sf://login":@"SFLoginViewController"}];
+}
+
+- (void)initNavigators{
+    _newestNavigator = [[UMNavigationController alloc] initWithRootViewControllerURL:[[NSURL URLWithString:@"sf://questionlist"]
+                                                                                      addParams:[NSDictionary dictionaryWithObjectsAndKeys:
+                                                                                                 @"最新问题", @"title",
+                                                                                                 @"listnewest", @"list",
+                                                                                                 nil]]];
+    _newestNavigator.title = @"最新问题";
+}
+
+- (void)initSliderNavigator{
+    _navigator = nil;
+    if ([SFLoginService isLogin]){
+    
+    }else{
+    
+    }
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    self.window.rootViewController = [[UIViewController alloc] init];
+    
+    [self initURLMapping];
+    [self initNavigators];
+    [self initSliderNavigator];
+    
+    self.window.rootViewController = _newestNavigator;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;

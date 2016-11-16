@@ -1,0 +1,65 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "5799AA36935FBE8EC66586A3311E0BA9F3EB33E7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "303ADB51C1AA751B94919C244515192B57F79D74" : 9223372036854775807,
+    "26B47E874C549AB2EBF18460BF8861E05E860EB2" : 9223372036854775807,
+    "88404711345C98BFCBE728C0A5F337BB2CB989B8" : 9223372036854775807,
+    "5799AA36935FBE8EC66586A3311E0BA9F3EB33E7" : 9223372036854775807,
+    "36ED3EEF035E7FF2D167C9F845E33C6E3CE67564" : 9223372036854775807,
+    "DD20A1A48C66B5213E0FEBB87A95EF51D6C6F3E8" : 9223372036854775807,
+    "EF51387A5AF28E4351AFB0302884600583A438B5" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "6324D945-7169-4FDC-8076-5F73F8B375AA",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "303ADB51C1AA751B94919C244515192B57F79D74" : "SegmentFault\/SegmentFault\/Support\/GTM\/",
+    "26B47E874C549AB2EBF18460BF8861E05E860EB2" : "SegmentFault\/SegmentFault\/Support\/Kache\/",
+    "88404711345C98BFCBE728C0A5F337BB2CB989B8" : "SegmentFault\/SegmentFault\/Support\/SlimeRefresh\/",
+    "5799AA36935FBE8EC66586A3311E0BA9F3EB33E7" : "SegmentFault\/",
+    "36ED3EEF035E7FF2D167C9F845E33C6E3CE67564" : "SegmentFault\/SegmentFault\/Support\/URLManager\/",
+    "DD20A1A48C66B5213E0FEBB87A95EF51D6C6F3E8" : "SegmentFault\/SegmentFault\/Support\/AFNetworking\/",
+    "EF51387A5AF28E4351AFB0302884600583A438B5" : "SegmentFault\/SegmentFault\/Support\/JSONKit\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SegmentFault",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SegmentFault.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/gaosboy\/kache.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "26B47E874C549AB2EBF18460BF8861E05E860EB2"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git:\/\/github.com\/innerfence\/google-toolbox-for-mac.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "303ADB51C1AA751B94919C244515192B57F79D74"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/gaosboy\/urlmanager.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "36ED3EEF035E7FF2D167C9F845E33C6E3CE67564"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Wangjun-Jaelyn\/SegmentFault.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5799AA36935FBE8EC66586A3311E0BA9F3EB33E7"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/dbsGen\/SlimeRefresh.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "88404711345C98BFCBE728C0A5F337BB2CB989B8"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/AFNetworking\/AFNetworking.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DD20A1A48C66B5213E0FEBB87A95EF51D6C6F3E8"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/johnezang\/JSONKit.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "EF51387A5AF28E4351AFB0302884600583A438B5"
+    }
+  ]
+}
