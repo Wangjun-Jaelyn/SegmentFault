@@ -7,6 +7,7 @@
 //
 
 #import "SFLoginService.h"
+#import "UMViewController.h"
 
 @implementation SFLoginService
 
@@ -55,6 +56,13 @@
                                                                    NSHTTPCookieVersion:@"0"}];
     [[NSHTTPCookieStorage sharedHTTPCookieStorage] setCookie:uidCookie];
     [[NSNotificationCenter defaultCenter] postNotificationName:SFNotificationLogout object:nil];
+}
+
++ (void)login:(UMViewController *)vc withCallback:(NSString *)callback{
+    [vc.navigator openURL:[[NSURL URLWithString:@"sf://login"] addParams:@{
+                                                                        @"title":@"登录",
+                                                                        @"callback":callback
+                                                                           }]];
 }
 
 @end
